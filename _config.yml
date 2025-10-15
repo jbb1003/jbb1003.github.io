@@ -5,4 +5,12 @@ plugins:
 # theme: jekyll-theme-minimal
 remote_theme: benbalter/retlab
 title: Ben Blaukopf's Portfolio
-description: Bookmark this to keep an eye on my project updates!
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+      comments: false
